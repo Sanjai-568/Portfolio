@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sanjairam- Personal Portfolio</title>
+  <title>Sanjairam A - Personal Portfolio</title>
 
   <!--
     - favicon
@@ -40,10 +40,15 @@
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Sanjairam.A</h1>
 
-          <p class="title">Web developer and software developer</p>
+        <figure class="avatar-box">
+          <ion-icon name="person-circle-outline" style="font-size: 80px;"></ion-icon>
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sanjairam A">Sanjairam A</h1>
+
+          <p class="title">B.Tech Information Technology Student</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -83,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+91 987654321</a>
+              <a href="tel:+918610548568" class="contact-link">+91 8610548568</a>
             </div>
 
           </li>
@@ -91,13 +96,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="globe-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title">Portfolio</p>
 
-              <time datetime="1982-06-23">October 23, 2005</time>
+              <a href="https://sanjai-568.github.io/Portfolio/" class="contact-link" target="_blank">sanjai-568.github.io/Portfolio</a>
             </div>
 
           </li>
@@ -111,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Coimbatore, Tamilnadu, India</address>
+              <address>Coimbatore, Tamil Nadu, India</address>
             </div>
 
           </li>
@@ -123,20 +128,20 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://github.com/sanjai-568" class="social-link" target="_blank" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="mailto:sanjairam568@gmail.com" class="social-link" aria-label="Email">
+              <ion-icon name="mail-outline"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://sanjai-568.github.io/Portfolio/" class="social-link" target="_blank" aria-label="Portfolio">
+              <ion-icon name="globe-outline"></ion-icon>
             </a>
           </li>
 
@@ -171,6 +176,15 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
@@ -195,11 +209,11 @@
 
         <section class="about-text">
           <p>
-            Hi! I’m Sanjairam, a passionate web developer currently pursuing a B.Tech in Information Technology at Sri Krishna College of Technology. I have a deep love for coding and creating dynamic, user-friendly web experiences. My skill set includes proficiency in HTML, CSS, JavaScript, React, C++, and Java. I thrive in problem-solving and continuously strive to learn new technologies to improve my skills. I’m excited to take on new challenges and build innovative solutions that make an impact.
+            Backend-focused software developer with hands-on experience in Java, Spring Boot, REST APIs, and database-driven applications. Skilled in building scalable backend services, integrating APIs, and developing responsive web interfaces.
           </p>
 
           <p>
-            I’m a web developer focused on building websites that are easy to use and look great. I make sure your website is both functional and visually appealing, while keeping your message and identity at the forefront. With my skills in HTML, CSS, JavaScript, React, C++, and Java, I aim to create a seamless and attractive experience for users.
+            Currently expanding expertise in FastAPI and AI-powered applications to build data-driven systems and automation tools.
           </p>
         </section>
 
@@ -326,6 +340,22 @@
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>NPTEL Certificate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Course Title:The Joy of Computing using Python
+                    Learned Python fundamentals, problem-solving techniques, and computational thinking through interactive examples.
+                    Practiced logic building and writing Python programs for real-world scenarios and algorithmic challenges.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Figma Training</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
@@ -357,51 +387,6 @@
           </ul>
 
         </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
 
 
         <!--
@@ -487,38 +472,24 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Gandhi Matriculation Higher Secondary School</h4>
+              <h4 class="h4 timeline-item-title">B.Tech in Information Technology (Pursuing)</h4>
 
-              <span>2019-2021</span>
+              <span>2023 - 2027 (Expected)</span>
 
               <p class="timeline-text">
-                Completed Secondary Education (10th Grade) in Namakkal.
+                CGPA: 7.6 up to 5th Semester. Sri Krishna College of Technology, Coimbatore.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Government Higher Secondary School</h4>
+              <h4 class="h4 timeline-item-title">Higher Secondary Education</h4>
 
-              <span>2021 — 2023</span>
-
-              <p class="timeline-text">
-                Completed Higher Education (12th Grade) in Namakkal.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Pursuing B.Tech in Information Technology
-               </h4>
-
-              <span>2023 — 2027</span>
+              <span>2021 - 2023</span>
 
               <p class="timeline-text">
-                Sri Krishna College of Technology, Coimbatore
-                Expected Graduation:2027
+                Government Higher Secondary School, Namakkal, Tamil Nadu.
               </p>
 
             </li>
@@ -541,41 +512,48 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Web Development Intern in Internpe</h4>
+              <h4 class="h4 timeline-item-title">Web Development Intern - InternPe</h4>
 
-              <span>Duration:1 Month</span>
+              <span>2024 - 2025 (1 Month)</span>
 
               <p class="timeline-text">
-                Worked on developing and optimizing web applications.
-                Gained hands-on experience with HTML, CSS, JavaScript, and React.
-                Collaborated with a team to improve user experience and interface design.
+                Developed and optimized web application components using HTML, CSS, JavaScript, and React. Improved UI/UX with responsive layouts, collaborated with the team for quality delivery, and worked with MySQL for efficient data storage and retrieval.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Figma Training (2022)</h4>
+              <h4 class="h4 timeline-item-title">Figma UI/UX Training - Infosys Springboard</h4>
 
-              <span>Infosys Springboard</span>
+              <span>2022</span>
 
               <p class="timeline-text">
-                Gained proficiency in UI/UX design and prototyping using Figma.
-                Completed hands-on projects and design challenges to apply design principles.
+                Hands-on experience with wireframing, prototyping, and practical UI design principles.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Completed 30+ Web Development Courses on Coursera</h4>
+              <h4 class="h4 timeline-item-title">30+ Web Development Courses - Coursera</h4>
+
+              <span>2023 - 2024</span>
+
+              <p class="timeline-text">
+                Covered HTML, CSS, JavaScript, React, Node.js, Git, responsive design, and mini full-stack projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Achievements</h4>
 
               <span>2024</span>
 
               <p class="timeline-text">
-                Gained expertise in HTML, CSS, JavaScript, React, Node.js, and other web technologies.
-                Completed projects related to front-end and back-end development, UI/UX design, and responsive design.
-                Acquired skills in version control (Git), web performance optimization, and full-stack development.
+                UI/UX Design Contest Runner-up (Figma) and Poster Making Runner-up (Canva).
               </p>
 
             </li>
@@ -593,7 +571,33 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">UI/UX</h5>
+                <h5 class="h5">Java & Spring Boot</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">REST APIs & MySQL</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React, HTML, CSS, JavaScript</h5>
                 <data value="80">80%</data>
               </div>
 
@@ -606,12 +610,12 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web Development</h5>
-                <data value="70">70%</data>
+                <h5 class="h5">Python</h5>
+                <data value="75">75%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+                <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
 
             </li>
@@ -619,7 +623,20 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Designing skills</h5>
+                <h5 class="h5">Git/GitHub, Docker (Basic), Figma</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Languages: Tamil, Telugu, English</h5>
                 <data value="90">90%</data>
               </div>
 
@@ -629,28 +646,11 @@
 
             </li>
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Leadership</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
           </ul>
 
         </section>
 
       </article>
-
-
-
-
 
       <!--
         - #PORTFOLIO
@@ -721,163 +721,213 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/sanjai-568" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Bug Analyzer System</h3>
 
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
+                <p class="project-category">Spring Boot + MySQL</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://github.com/sanjai-568" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Event Management System</h3>
 
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">Spring Boot + React + MySQL</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://github.com/sanjai-568" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">AI Chatbot with Vapi</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">AI APIs / Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/sanjai-568/Task-management-and-team-collaboration" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Task-management-and-team-collaboration</h3>
+
+                <p class="project-category">Mini Project (Low Code / No Code)</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/sanjai-568/Gym_membership" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Gym_membership</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">HTML</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CERTIFICATIONS
+      -->
+
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.infosys.com/springboard.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o" alt="Figma UI UX Training" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Certification</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022">2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Figma UI/UX Training - Infosys Springboard</h3>
+
+                  <p class="blog-text">
+                    Hands-on training in wireframing, prototyping, and core UI/UX design principles.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="https://play-lh.googleusercontent.com/GguSSKNcZdGw624xa9VqH71Sy6B12bHdlINY0RN_CltpzE51NgdFWkxesZuI4joVDrM" alt="Coursera Web Development Courses" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Training</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023">2023-2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">30+ Web Development Courses - Coursera</h3>
+
+                  <p class="blog-text">
+                    Completed coursework in HTML, CSS, JavaScript, React, Node.js, Git, responsive design, and mini full-stack projects.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" aria-label="UI UX Contest Achievement">
+
+                <figure class="blog-banner-box">
+                  <img src="https://t3.ftcdn.net/jpg/02/14/16/04/360_F_214160413_Q0QybdSv1kg7Z4UyYKGKE1fNgvZt6z2M.jpg" alt="UI UX Design Contest Runner up" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Achievement</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI/UX Design Contest - Runner-up (Figma)</h3>
+
+                  <p class="blog-text">
+                    Secured runner-up position by presenting practical interface concepts and design solutions.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" aria-label="Poster Making Achievement">
+
+                <figure class="blog-banner-box">
+                  <img src="https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ" alt="Poster Making Runner up" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Achievement</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Poster Making - Runner-up (Canva)</h3>
+
+                  <p class="blog-text">
+                    Recognized for visual storytelling and effective communication through poster design.
+                  </p>
+
+                </div>
 
               </a>
             </li>
@@ -899,7 +949,7 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15645.569416906455!2d77.88464374937296!3d11.379023120938305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96191aa62873b%3A0xcbcc6272306596d2!2sTiruchengode%2C%20Tamil%20Nadu%20637211!5e0!3m2!1sen!2sin!4v1737966442393!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen=""
+            <iframe src="https://www.google.com/maps?q=Coimbatore,+Tamil+Nadu,+India&output=embed" width="400" height="300" style="border:0;" allowfullscreen=""
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
@@ -956,7 +1006,9 @@ const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
-sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+if (sidebar && sidebarBtn) {
+  sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+}
 
 
 
@@ -977,25 +1029,28 @@ const testimonialsModalFunc = function () {
   overlay.classList.toggle("active");
 }
 
-// add click event to all modal items
-for (let i = 0; i < testimonialsItem.length; i++) {
+// add click event to all modal items (only if modal elements exist)
+if (modalContainer && modalCloseBtn && overlay && modalImg && modalTitle && modalText) {
+  for (let i = 0; i < testimonialsItem.length; i++) {
+    testimonialsItem[i].addEventListener("click", function () {
+      const avatar = this.querySelector("[data-testimonials-avatar]");
+      const title = this.querySelector("[data-testimonials-title]");
+      const text = this.querySelector("[data-testimonials-text]");
 
-  testimonialsItem[i].addEventListener("click", function () {
+      if (avatar && title && text) {
+        modalImg.src = avatar.src;
+        modalImg.alt = avatar.alt;
+        modalTitle.innerHTML = title.innerHTML;
+        modalText.innerHTML = text.innerHTML;
+        testimonialsModalFunc();
+      }
+    });
+  }
 
-    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
-
-    testimonialsModalFunc();
-
-  });
-
+  // add click event to modal close button
+  modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+  overlay.addEventListener("click", testimonialsModalFunc);
 }
-
-// add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
 
 
 
@@ -1005,17 +1060,17 @@ const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
+if (select) {
+  select.addEventListener("click", function () { elementToggleFunc(this); });
+}
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
-
     let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    elementToggleFunc(select);
+    if (selectValue) selectValue.innerText = this.innerText;
+    if (select) elementToggleFunc(select);
     filterFunc(selectedValue);
-
   });
 }
 
@@ -1046,10 +1101,10 @@ for (let i = 0; i < filterBtn.length; i++) {
   filterBtn[i].addEventListener("click", function () {
 
     let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    if (selectValue) selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
 
-    lastClickedBtn.classList.remove("active");
+    if (lastClickedBtn) lastClickedBtn.classList.remove("active");
     this.classList.add("active");
     lastClickedBtn = this;
 
@@ -1065,17 +1120,17 @@ const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 
 // add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
-
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
-
-  });
+if (form && formBtn) {
+  for (let i = 0; i < formInputs.length; i++) {
+    formInputs[i].addEventListener("input", function () {
+      // check form validation
+      if (form.checkValidity()) {
+        formBtn.removeAttribute("disabled");
+      } else {
+        formBtn.setAttribute("disabled", "");
+      }
+    });
+  }
 }
 
 
@@ -1087,17 +1142,21 @@ const pages = document.querySelectorAll("[data-page]");
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
+    const selectedPage = this.textContent.trim().toLowerCase();
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
+    for (let j = 0; j < pages.length; j++) {
+      if (selectedPage === pages[j].dataset.page) {
+        pages[j].classList.add("active");
         window.scrollTo(0, 0);
       } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
+        pages[j].classList.remove("active");
       }
     }
+
+    for (let j = 0; j < navigationLinks.length; j++) {
+      navigationLinks[j].classList.remove("active");
+    }
+    this.classList.add("active");
 
   });
 }
